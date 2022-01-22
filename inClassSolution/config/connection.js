@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 require('dotenv').config();
-
+// checking branch 
 let sequelize;
 
 if (process.env.JAWSDB_URL) {
